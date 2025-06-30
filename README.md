@@ -1,3 +1,3 @@
-<h1>ATIVIDADE PRÁTICA – Proposto pelo Curso de JavaScript da Generation 🚀</h1> 
+<h1>ATIVIDADE PRÁTICA – Curso de JavaScript da Generation 🚀</h1> 
 
 
