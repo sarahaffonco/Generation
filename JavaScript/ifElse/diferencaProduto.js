@@ -19,11 +19,11 @@ console.log ("N3 é: " + n3);
 n4 = read.questionFloat("Digite n4: ")
 console.log ("N4 é: " + n4);
 
-let produton1n2 =  n1 * n2;
-console.log ("O produto entre n1 e n2 é: "+ produton1n2);
+let produtoN1N2 =  n1 * n2;
+console.log ("O produto entre n1 e n2 é: "+ produtoN1N2);
 
 let produton3n4 = n3 * n4 ;
 console.log ("O produto de n3 e n4 é: " + produton3n4);
 
-let diferenca = produton1n2 - produton3n4;
+let diferenca = produtoN1N2 - produton3n4;
 console.log ("O resultado de (n1 * n2) – (n3 * n4) é: " +diferenca )

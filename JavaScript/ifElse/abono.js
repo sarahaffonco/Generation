@@ -1,4 +1,4 @@
-// Dado o Fluxograma abaixo, desenvolva o algoritmo abaixo na Linguagem JavaScript: 
+// Dado o Fluxograma abaixo, desenvolva o algoritmo abaixo na Linguagem JavaScript
 
 const read = require('readline-sync');
 
