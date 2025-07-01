@@ -23,23 +23,23 @@ switch (operacao) {
     case 1:
         mensagem = `Operação - Saldo\nSaldo: R$ ${saldo.toFixed(2)}`;
         break;
-        
+
     case 2:
         valor = read.questionFloat("Valor: R$ ");
         if (valor > saldo) {
             mensagem = "Operação - Saque\nSaldo Insuficiente!";
         } else {
-           const novoSaldo = saldo - valor;
+            const novoSaldo = saldo - valor;
             mensagem = `Operação - Saque\nNovo Saldo: R$ ${novoSaldo.toFixed(2)}`;
         }
         break;
-        
+
     case 3:
         valor = read.questionFloat("Valor: R$ ");
         const novoSaldo = saldo + valor;
         mensagem = `Operação - Depósito\nNovo Saldo: R$ ${novoSaldo.toFixed(2)}`;
         break;
-        
+
     default:
         mensagem = "Operação Inválida!";
 }

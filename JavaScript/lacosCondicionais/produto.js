@@ -2,13 +2,13 @@
 
 const read = require('readline-sync');
 
-console.log ("Cardápio :")
-console.log ("1 - Cachorro Quente \nValor R$10.00")
-console.log ("\n2 - X-Salada \nValor R$15.00")
-console.log ("\n3 - X-Bacon \nValor R$18.00")
-console.log ("\n4 - Bauru \nValor R$12.00")
-console.log ("\n5 - Refrigerante \nValor R$8.00")
-console.log ("\n6 - Suco de Laranja \nValor R$13.00")
+console.log("Cardápio :")
+console.log("1 - Cachorro Quente \nValor R$10.00")
+console.log("\n2 - X-Salada \nValor R$15.00")
+console.log("\n3 - X-Bacon \nValor R$18.00")
+console.log("\n4 - Bauru \nValor R$12.00")
+console.log("\n5 - Refrigerante \nValor R$8.00")
+console.log("\n6 - Suco de Laranja \nValor R$13.00")
 
 //número inteiro entre 1 e 6
 const codigo = read.questionInt("\nCódigo do Produto (1-6): ", {

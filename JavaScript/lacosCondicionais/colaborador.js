@@ -1,15 +1,14 @@
 // 6.	Com base na tabela abaixo, escreva um algoritmo que leia o Nome do Colaborador (string), o Código do Cargo do Colaborador (número inteiro entre 1 e 6) e o Salário (número real). A seguir, mostre na tela o Nome do Colaborador, o Cargo e o novo Salário reajustado.
 
-
 const read = require('readline-sync');
 
-console.log ("Reajuste Salarial :")
-console.log ("1 - Gerente\nReajuste 10%")
-console.log ("\n2 - Vendedor\nReajuste 7%")
-console.log ("\n3 - Supervisor\nReajuste 9%")
-console.log ("\n4 - Motorista\nReajuste 6%")
-console.log ("\n5 - Estoquista\nReajuste 6%")
-console.log ("\n6 - Técnico de TI\nReajuste 8%")
+console.log("Reajuste Salarial :")
+console.log("1 - Gerente\nReajuste 10%")
+console.log("\n2 - Vendedor\nReajuste 7%")
+console.log("\n3 - Supervisor\nReajuste 9%")
+console.log("\n4 - Motorista\nReajuste 6%")
+console.log("\n5 - Estoquista\nReajuste 6%")
+console.log("\n6 - Técnico de TI\nReajuste 8%")
 
 const nome = read.question("\nNome do Colaborador: ");
 
@@ -17,7 +16,7 @@ const salario = read.questionFloat("Salário atual: R$ ", {
     limitMessage: 'Digite um valor numérico positivo'
 });
 
-const codigoCargo  = read.questionInt("\nCódigo do Cargo (1-6): ", {
+const codigoCargo = read.questionInt("\nCódigo do Cargo (1-6): ", {
     limit: [1, 2, 3, 4, 5, 6],
     limitMessage: 'Digite um número entre 1 e 6'
 });

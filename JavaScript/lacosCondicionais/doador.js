@@ -6,11 +6,11 @@ let idade;
 let nome;
 let jaDoou;
 
-idade = read.questionInt("\nDigite sua idade: ", {limitMessage: 'Digite um numero inteiro'});
+idade = read.questionInt("\nDigite sua idade: ", { limitMessage: 'Digite um numero inteiro' });
 
 nome = read.question("\nDigite seu nome: ");
 
-jaDoou = read.question("Já fez outras doações de sangue? (sim/não): ").toLowerCase() === 'sim';
+jaDoou = read.question("\nJá fez outras doações de sangue? (sim/não): ").toLowerCase() === 'sim';
 
 // Para doar sangue é necessário ter entre 18 e 69 anos
 if (idade >= 18 && idade <= 69) {

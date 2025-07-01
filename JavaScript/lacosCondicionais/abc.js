@@ -5,13 +5,13 @@ let numA;
 let numB;
 let numC;
 
-numA = read.questionInt("\nDigite um valor inteiro para A: ", {limitMessage: 'Digite um numero inteiro'});
+numA = read.questionInt("\nDigite um valor inteiro para A: ", { limitMessage: 'Digite um numero inteiro' });
 console.log("O valor de A é: " + numA);
 
-numB = read.questionInt("\nDigite um valor inteiro para B: ", {limitMessage: 'Digite um numero inteiro'});
+numB = read.questionInt("\nDigite um valor inteiro para B: ", { limitMessage: 'Digite um numero inteiro' });
 console.log("O valor de B é: " + numB);
 
-numC = read.questionInt("\nDigite um valor inteiro para C: ", {limitMessage: 'Digite um numero inteiro'});
+numC = read.questionInt("\nDigite um valor inteiro para C: ", { limitMessage: 'Digite um numero inteiro' });
 console.log("O valor de C é: " + numC);
 
 const sumAB = numA + numB;
